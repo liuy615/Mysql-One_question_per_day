@@ -34,8 +34,8 @@ insert into student (s_id,s_name,s_birth,s_sex) values
 ### 创建课程表
 ```
 create table course (
-    c_id int;
-    c_name varchar(8);
+    c_id int,
+    c_name varchar(8),
     t_id int
 );
 ```
@@ -51,8 +51,8 @@ insert into course values
 
 ```
 create table score (
-    s_id int;
-    c_id int;
+    s_id int,
+    c_id int,
     s_score int
 );
 ```
@@ -82,7 +82,7 @@ insert into score values
 ### 创建教师表
 ```
 create table teacher (
-    t_id int;
+    t_id int,
     t_name varchar(8)
 );
 ```
@@ -93,3 +93,7 @@ insert into teacher values
 (2,'李四'),
 (3,'王五');
 ```
+
+## 6. 各表关系图
+![image](https://user-images.githubusercontent.com/87409672/215433875-d7c29d42-31be-4279-a3bd-1ffd6dc0ed66.png)
+
